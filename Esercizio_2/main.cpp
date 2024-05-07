@@ -43,9 +43,6 @@ int main()
         tempiMerge += durationm;
         cout<<"Il tempo che impiega MergeSort e': " <<durationm<<endl;
 
-        // vettore iniziale
-        generate(v.begin(), v.end(), []() { return (rand() %100)+1; });
-
 
         // calcolo la performance con BubbleSort
         steady_clock::time_point tb_begin
